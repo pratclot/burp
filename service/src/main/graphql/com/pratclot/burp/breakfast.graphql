@@ -1,0 +1,10 @@
+query findSome($latitude: Float, $longitude: Float, $limit: Int, $offset: Int) {
+    search(latitude: $latitude, longitude: $longitude, term: "breakfast", limit: $limit, offset: $offset) {
+        business {
+            name
+            photos
+            distance
+            rating
+        }
+    }
+}

@@ -1,0 +1,6 @@
+rootProject.name = "burp"
+include ':app'
+include ':di'
+include ':core'
+include ':service'
+include ':repo'
